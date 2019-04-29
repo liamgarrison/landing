@@ -4,6 +4,16 @@
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
+/* Component styles */
+@import url('components/container.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+
+/* Helper classes */
+@import url('utilities.css');
+
 /* Utilities */
 body {
   margin: 0;
@@ -20,3 +30,7 @@ a {
 
 /* Custom design below! */
 
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}

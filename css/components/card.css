@@ -1,0 +1,33 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.card:first-child {
+  margin: 0;
+}
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  margin-left: 30px;
+}
+
+.card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card p {
+  color: #808080;
+}
+
